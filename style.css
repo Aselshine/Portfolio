@@ -1,0 +1,47 @@
+*{font-family: 'Roboto', sans-serif;}
+
+header a{
+    font-size: 18px;
+    line-height: 22px;
+    color: #828282;
+    text-decoration: none;
+}
+
+header{
+    height: 10vh;
+   
+}
+header a:hover{
+    color: black;
+}
+
+header .row{
+    border-bottom: 1px solid #828282;
+}
+main span{
+    transform: rotate(-90deg);
+}
+
+main .row + .row img{
+ 
+    /* width: 100%; */
+}
+
+.aboutMe{
+    background-color: #F6F6F6;
+    margin: 10vh 0;
+    padding: 10vh 0;
+}
+
+.skills .container > .row{
+    height: 50vh;
+    align-content: space-between;
+}
+
+.skills{
+    padding-bottom: 10vh;
+}
+.portfolio iframe{
+    height: 70vh;
+    margin: 10vh 0;
+}
